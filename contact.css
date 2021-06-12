@@ -1,0 +1,24 @@
+.contact-content{
+font-family:var(fo);
+  /* background-color: rgb(28, 161, 238); */
+display:block;
+height: 70vh;
+position: relative;
+
+}
+.contact-content::after{
+  margin-top: 10px;
+content:"";
+background-image:url('/img/typewriter\ 2.svg');
+position:absolute;
+top: 0;
+width: 100%;
+height: inherit;
+opacity: 0.15;
+border-radius: 20px;
+z-index: -1;
+}
+.form-box{
+  padding: 5px;
+}
+
